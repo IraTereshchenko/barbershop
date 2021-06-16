@@ -5,35 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <!--Top line-->
     <header class="header">
-    <div class="container">
-        <div class="logo-wrapper">
-        <img class="logo-icon" src="./images/group.svg" alt="logo">
-        <img class="logo-text" src="./images/Logo.svg" alt="logo">
-    </div>
-    <nav>
-        <ul class="navigation-list">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#History">History</a></li>
-            <li><a href="#Servis">Servis</a></li>
-            <li><a href="#Gallary">Gallary</a></li>
-        </ul>
-    </nav>
-    <ul class="button-list">
-        <li><button type="button">
-            <img src="./images/profile.svg" alt="pro">
-        </button></li>
-        <li><button type="button">
-            <img src="./images/notification 1.svg" alt="not">
-        </button></li>
-        <li><button class="appointment" type="button">Appointment</button></li>
-    </ul>
-    </div>
+        <div class="container">
+            <p class="logo">arber</p>
+            <nav>
+                <ul class="navigation-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#gallery">Gallary</a></li>
+                </ul>
+            </nav>
+            <ul class="button-list">
+                <li><button type="button"><img src="./images/profile.svg" alt="profile"></button> </li>
+                <li><button type="button"><img src="./images/notification.svg" alt="notification"></button></li>
+                <li><button class="button" type="button">Appointment</button></li>
+            </ul>
+        </div>
     </header>
+<main>
+    <!--Hero-->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">
+                <span class="accent-title">Hairstyle </span>Reflects</br> The Personality</br>Inside You
+            </h1>
+            <p class="hero-text">It is a long established fact that a reader will be distracted by the readable content of a page w
+            hen looking at.</p>
+        <button class="button" type="button">Get Started</button>
+        </div>
+    </section>
+    <!--History-->
+    <section class="history">
+        <div class="container">
+            <h2 class="history-title">Our <span class="accent-title"> History</span></h2>
+            <ul class="history-list">
+            <li class="history-item">It is a long established fact that a reader will be distracted by the readable content of a page w
+            hen looking at.</li>
+            <li class="history-item" >It is a long established fact that a reader will be distracted by the readable content of a page w
+            hen looking at.</li>
+            </ul>
+        <button class="button" type="button">Learn more</button>
+        </div>
+    </section>
+    <!--Service-->
+    <section class="services">
+        <div class="container" id="chapter-services">
+            <h2 class="title">Services We <br> <span class="accent-title">Provide</span> </h2>
+            <ul class="services-list">
+                <li class="services-item">
+                    <div class="icon-wrapper">
+                        <svg class="services-icon" width="65" height="58">
+                            <use href="./images/sprite.svg#icon-service1"></use>
+                        </svg>
+                    </div>
+                    <h3 class="services-title">Hair Cut</h3>
+                    <p class="services-text">long established fact that a reacted by the readable content of
+                        hen looking at.</p>
+                </li>
+                <li class="services-item">
+                    <div class="icon-wrapper">
+                        <svg class="services-icon" width="68" height="68">
+                            <use href="./images/sprite.svg#icon-service2"></use>
+                        </svg>
+                    </div>
+                    <h3 class="services-title">Beard Cut</h3>
+                    <p class="services-text">long established fact that a reacted by the readable content of
+                        hen looking at.</p>
+                </li>
+                <li class="services-item">
+                    <div class="icon-wrapper">
+                        <svg class="services-icon" width="66" height="66">
+                            <use href="./images/sprite.svg#icon-service3"></use>
+                        </svg>
+                    </div>
+                    <h3 class="services-title">Facial Pack</h3>
+                    <p class="services-text">long established fact that a reacted by the readable content of
+                        hen looking at.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--Gallery-->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="title">Our<span class="accent-title">Gallery</span></h2>
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="./images/action1.jpg" alt="Handsome man is shaving beard" width="435" height="435">
+                </li>
+                <li class="gallery-item">
+                    <img src="./images/action2.jpg" alt="Young man is trimming hair" width="435" height="435">
+                </li>
+                <li class="gallery-item">
+                    <img src="./images/action3.jpg" alt="Young man is trimming hair" width="435" height="435">
+                </li>
+                <li class="gallery-item">
+                    <img src="./images/action4.jpg" alt="Handsome man is shaving beard" width="435" height="435">
+                </li>
+                <li class="gallery-item">
+                    <img src="./images/action5.jpg" alt="Handsome man is shaving beard" width="435" height="435">
+                </li>
+                <li class="gallery-item">
+                    <img src="./images/action6.jpg" alt="Handsome man is shaving beard" width="435" height="435">
+                </li>
+            </ul>
+            <button class="button" type="button">View all</button>
+        </div>
+    </section>
+    </main>
+</main>
+<!--Foorer-->
+<footer class="footer">
+    <div class="container">
+        <p class="logo">arber</p>
+        <p class="fotter-logo-text">It is a long established fact that a reader will be<br>distracted by the readable</p>
+        <ul class="footer-social-list">
+            <li><a class="footer-social-link link" href=""><svg width="19" height="38">
+                        <use href="./images/sprite.svg#facebook"></use>
+                    </svg></a>
+            </li>
+            <li><a class="footer-social-link link" href=""><svg width="32" height="26">
+                        <use href="./images/sprite.svg#twitter"></use>
+                    </svg></a>
+            </li>
+            <li><a class="footer-social-link link" href=""><svg width="28" height="29">
+                        <use href="./images/sprite.svg#google"></use>
+                    </svg></a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+
+
     
 </body>
 </html>
