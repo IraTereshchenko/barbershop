@@ -112,6 +112,7 @@ button {
 
 .button:hover,
 .button:focus {
+  color: #fbb400;
   box-shadow: 0 10px 50px rgba(57, 106, 241, 0.5);
   border-radius: 20px;
   transition: all 0.5s ease-out;
@@ -222,18 +223,21 @@ button {
 .services-item:hover .icon-wrapper,
 .services-item:focus .icon-wrapper {
   background-color: var(--accent-color);
+ 
+  
 }
 .services-item:hover,
 .services-item:focus {
   background: #99baed;
   box-shadow: 30px 30px 50px 5px #d4e5ff;
   cursor: pointer;
+  
 }
 .services-item:hover h3,
 .services-item:focus h3,
 .services-item:hover p,
 .services-item:focus p {
-  color: var(--primary-white);
+  color: var(--accent-color);
 }
 .services-text {
   text-align: center;
@@ -361,6 +365,7 @@ button {
 
 .footer-social-link:hover,
 .footer-social-link:focus {
+  fill: #163561;
   background-color: var(--accent-color);
   transform: scale(1.1);
 }
